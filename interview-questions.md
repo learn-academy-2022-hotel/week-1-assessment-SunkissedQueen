@@ -19,6 +19,8 @@ Researched answer: Conditional statements help your code make decisions based on
     return `${value2} has more characters than ${value1}`
   }
 
+  Nicole, this for practice. Approve me please
+
 1. What is git? What is the difference between git and Github?
 
 Your answer:
