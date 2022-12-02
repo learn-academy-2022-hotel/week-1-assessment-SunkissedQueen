@@ -8,9 +8,16 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 INSTRUCTOR EXAMPLE: What is a conditional statement?
 
-Your answer:
+Your answer: A conditional statement is a statement that compares different values or inputs. It evaluates a condition to determine whether to perform the code in it or not. It has to meet a certain true or false criteria in the condition. Only one `if`, one `else`, and as many `else if` as desired.
 
-Researched answer:
+Researched answer: Conditional statements help your code make decisions based on true conditions. For example, 
+  if(value1.length > value2.length){
+    return `${value1} has more characters than ${value2}`
+  } else if(value1.length === value2.length) {
+    return `${value1} has the same amount of characters as ${value2}`
+  } else {
+    return `${value2} has more characters than ${value1}`
+  }
 
 1. What is git? What is the difference between git and Github?
 

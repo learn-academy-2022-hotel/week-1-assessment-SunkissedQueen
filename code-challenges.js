@@ -7,6 +7,24 @@
 // --------------------INSTRUCTOR EXAMPLE: Create a function that takes in two strings and determines which of the two strings has more characters. Use the two sets of test variables provided.
 
 // Pseudo code:
+// Function Signature
+// input: strings √
+// output: string indicating which of the two strings has more characters √
+
+// input: "apple", "banana"
+// output: "Banana has more characters than apple"
+
+// input: "cherry", "kiwi"
+// output: "Cherry has more characters than kiwi"
+
+// Process √
+// create a function called bigFruit that takes in a set of strings called fruit1, fruit2 and fruit3, fruit4
+// if fruit1 has more characters than fruit2 return fruit1 has more characters than fruit2
+// any other condition return fruit2 has more characters than fruit1
+// if fruit3 has more characters than fruit4 return fruit3 has more characters than fruit4
+// any other condition return fruit4 has more characters than fruit3
+// string interpolation for the return statement
+
 
 // Set one:
 const fruit1 = "apple"
@@ -17,6 +35,31 @@ const fruit2 = "banana"
 const fruit3 = "cherry"
 const fruit4 = "kiwi"
 // Expected outcome: "cherry"
+
+// Function
+const bigFruit = (value1, value2) => {
+  if(value1.length > value2.length){
+    return `${value1} has more characters than ${value2}`
+  } else if(value1.length === value2.length) {
+    return `${value1} has the same amount of characters as ${value2}`
+  } else {
+    return `${value2} has more characters than ${value1}`
+  }
+}
+
+// console.log(bigFruit(fruit1, fruit2))
+// output: banana has more characters than apple
+
+// console.log(bigFruit(fruit3, fruit4))
+// output:cherry has more characters than kiwi
+
+// console.log(bigFruit(fruit2, fruit3))
+// output: banana has the same amount of characters as cherry
+
+// console.log(bigFruit("watermelon", "grape"))
+// output: watermelon has more characters than grape
+
+
 
 // --------------------1) Create a function that takes in a number and determines if the given number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below.
 

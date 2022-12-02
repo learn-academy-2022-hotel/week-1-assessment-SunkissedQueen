@@ -7,10 +7,12 @@
 
 // --------------------INSTRUCTOR EXAMPLE: What will this log?
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
-// console.log(colors.push("indigo"))
+console.log(colors.push("indigo"))
 
 // a) Your answer:
-// b) Verify and explain:
+// ["tangerine", "magenta", "lilac", "daffodil", "indigo"] 
+// b) Verify and explain: Because the push() method is a mutator, the console.log shows that it has increased the values in the array to 5.
+// console.log(colors) will output the array with its values as stated in my answer.
 
 // --------------------1) What will this log?
 
