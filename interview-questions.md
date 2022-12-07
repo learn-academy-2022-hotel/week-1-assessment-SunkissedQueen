@@ -19,48 +19,55 @@ Researched answer: Conditional statements help your code make decisions based on
     return `${value2} has more characters than ${value1}`
   }
 
-  Nicole, this for practice. Approve me please
+  Nicole, this is for practice. Approve me please
 
 1. What is git? What is the difference between git and Github?
 
-Your answer:
+Your answer: From Developer David
 
-Researched answer:
+Researched answer: Git is a distributed version control system. It tracks changes in any set of files, typically used for coordinating work amongst programmers. Git is installed and maintained on your local system (rather than in the cloud) Github is designed as a Git repository hosting service. It is exclusively cloud based. You can share code with others, giving them the power to make revisions or edits.
 
 2. Which JavaScript operators will return a Boolean value?
 
-Your answer:
+Your answer: From Developer Bo
 
-Researched answer:
+Researched answer: The local operators of OR(||), AND(&&), and NOT(!) will return a boolean value.
 
 3. What is an index? What is the difference between index and value?
 
-Your answer:
+Your answer: From Developer Raymond
+Your answer: The index is the number placement of a character in a string, a value is a worth of a character.
 
-Researched answer:
+Researched answer: Each character in the string can be accounted for by its placement called an index.
 
 4. Compare and contrast arrays and strings. Please include ways in which they are the same and ways in which they are different.
 
-Your answer:
+Your answer: From Developer Monica
 
-Researched answer:
+Researched answer: Arrays and strings are similar because they both hold data and are declared by a variable. An Array is a data structure that holds a collection of elements having the same data types, while a string is a collection of characters. Arrays are mutable(can change) and strings are immutable(unable to be changed).
+
+For example: 
+(String): var greeting = "Hello World!" 
+(Array) var learnStudents = ["Debra", "Jonas", "Joel"]
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
-Your answer:
+Your answer: From Developer Moss
 
-Researched answer:
+There are many facets to pair programming properly. One way to view this is through the navigator and driver analogy. This sees one person as the "driver", writing and uploading code, while the "navigator" provides input and does research to assist the driver. You must be respectful of your partner when pair programming-- no back seat driving or calling all the shots without consulting the other person (to keep with the analogy).
+
+Researched answer: While there are many facets to proper pair programming, there are a few steps you can take to ensure that both you and your partner are getting the most out of it. Preparing for the coding session, working together respectfully, facilitating learning for both people, as well as communicating through both success and challenges are excellent techniques to follow to have a fulfilling pair programming session.
 
 ## Looking Ahead: Terms for Next Week
 
 Research and define the following terms to the best of your ability.
 
-1. Higher Order Functions:
+1. Higher Order Functions: Function that accepts functions as parameters and returns them. They operate on other functions by taking them as arguments or returning.
 
-2. Jest:
+2. Jest: Javascript based framework for testing
 
-3. Objects:
+3. Objects: unordered list of key-value pairs. Use dot notation to obtain the value. 
 
-4. Method:
+4. Method: function that belongs to an object
 
-5. Classes:
+5. Classes: blueprint of an object
